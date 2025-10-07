@@ -1,1 +1,5 @@
-/* Add your custom styles here */
+@import "stadion.css";
+
+nav {
+	background-color: var(--color-primary-navy);
+}
