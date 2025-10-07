@@ -1,0 +1,25 @@
+/* Stadion Brand Colors & Fonts */
+
+/* Colors */
+:root {
+	color-scheme: light dark;
+
+	--color-primary-cyan: #00ADEFFF;
+	--color-primary-gray: #7E8083FF;
+	--color-primary-navy: #003357FF;
+	--color-secondary-off-black: #404040FF;
+	--color-secondary-mid-gray: #D4E0E8FF;
+	--color-secondary-light-gray: #F2F4F6FF;
+	--color-secondary-white: #FFFFFFFF;
+	--color-accent-yellow: #F3BB44FF;
+	--color-accent-orange: #E6853FFF;
+	--color-accent-coral: #F07C91FF;
+	--color-accent-mint: #50E3C1FF;
+	--color-accent-magenta: #972C80FF;
+	--color-accent-purple: #4C348CFF;
+	--color-accent-teal: #00819DFF;
+	--base: light-dark(var(--color-secondary-white), var(--color-primary-navy));
+	--accent: light-dark(var(--color-primary-cyan), var(--color-primary-cyan));
+	--header: light-dark(var(--color-primary-navy), var(--color-secondary-white));
+	--body: light-dark(var(--color-secondary-off-black), var(--color-secondary-white));
+}
