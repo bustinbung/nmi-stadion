@@ -19,10 +19,15 @@
 	--color-accent-magenta: #972C80FF;
 	--color-accent-purple: #4C348CFF;
 	--color-accent-teal: #00819DFF;
-	--base: light-dark(var(--color-secondary-white), var(--color-primary-navy));
+	--base: var(--color-secondary-white);
+	--accent: var(--color-primary-cyan);
+	--header: var(--color-primary-navy);
+	--body: var(--color-secondary-off-black);
+
+	/* --base: light-dark(var(--color-secondary-white), var(--color-primary-navy));
 	--accent: light-dark(var(--color-primary-cyan), var(--color-primary-cyan));
 	--header: light-dark(var(--color-primary-navy), var(--color-secondary-white));
-	--body: light-dark(var(--color-secondary-off-black), var(--color-secondary-white));
+	--body: light-dark(var(--color-secondary-off-black), var(--color-secondary-white)); */
 
 	/* Fonts */
 	--header-font: "Montserrat", sans-serif;
