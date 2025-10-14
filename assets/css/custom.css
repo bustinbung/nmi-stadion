@@ -21,7 +21,7 @@ h1, h2, h3 {
 	transition: opacity 0.3s ease;
 }
 
-.card-team {
+.card {
 	transition: scale 0.3s ease;
 }
 
@@ -29,7 +29,7 @@ h1, h2, h3 {
 	opacity: 1;
 }
 
-.card-team:hover {
+.card:hover {
 	scale: 102%;
 }
 
