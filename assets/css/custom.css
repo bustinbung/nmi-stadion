@@ -32,3 +32,12 @@ h1, h2, h3 {
 .card-team:hover {
 	scale: 102%;
 }
+
+.nodecoration {
+	color: var(--color-secondary-offblack);
+}
+
+.nodecoration:hover {
+	text-decoration: none;
+	color: var(--color-secondary-offblack);
+}
