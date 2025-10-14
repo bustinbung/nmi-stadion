@@ -41,3 +41,34 @@ h1, h2, h3 {
 	text-decoration: none;
 	color: var(--color-secondary-offblack);
 }
+
+#logos {
+	margin-top: 5rem;
+}
+
+.logo {
+	object-position: center center;
+	object-fit: contain;
+	padding: 15px;
+}
+
+.button-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.download-button {
+	background-color: var(--header);
+	padding: 15px;
+	font-size: 1.25rem;
+	border-radius: 20px;
+	border: none;
+	box-shadow: none;
+	transition: all 0.15s ease;
+}
+
+.download-button:hover {
+	background-color: var(--accent);
+	box-shadow: 2px 2px 5px black;
+}
