@@ -15,6 +15,10 @@ h1, h2, h3 {
 	object-position: left top;
 }
 
+.card-img-top[aria-hidden="true"] {
+	object-position: center center;
+}
+
 .card-img-alt {
 	position: absolute;
 	opacity: 0;
