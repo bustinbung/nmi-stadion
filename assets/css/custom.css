@@ -1,8 +1,33 @@
 @import "stadion.css";
 
+@media (min-width: 768px) {
+    .hero-img {
+		width: 10rem;
+    }
+}        
+
 h1, h2, h3 {
 	font-family: var(--header-font) !important;
 	font-weight: 500;
+}
+
+.hero-img-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero-img {
+	width: 15rem;
+	margin: 0 !important;
+}
+
+.row {
+	justify-content: center;
+}
+
+.no-center > .row {
+	justify-content: initial;
 }
 
 .card-img-container {
@@ -100,4 +125,15 @@ h1, h2, h3 {
 
 .color-card > p.light {
 	color: var(--color-secondary-off-black);
+}
+
+.font-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 3rem;
+}
+
+.font-container > h4 {
+	font-size: 8rem;
 }
